@@ -9,8 +9,6 @@ function pizza (size, toppings, cost) {
   this.cost = cost;
 };
 
-var newPizza = new pizza("size", [], 0)
-
 pizza.prototype.pizzaCost = function() {
   if (newPizza.size === "personal") {
     newPizza.cost += 10;
@@ -39,7 +37,7 @@ $(document).ready(function() {
 
     toppingsAsString = toppingsArray.join(", ");
 
-    newPizza = new pizza (
+    var newPizza = new pizza (
     $("#size option:selected").val(),
     toppingsArray,
     0);
