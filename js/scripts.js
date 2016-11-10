@@ -18,7 +18,7 @@ pizza.prototype.pizzaCost = function() {
     newPizza.cost += 14;
   } else if (newPizza.size === "large") {
     newPizza.cost += 18;
-  } else if (newPizza.size === "family") {
+  } else if (newPizza.size === "giant") {
     newPizza.cost += 22
   }
   toppingsCost = toppingsArray.length;
