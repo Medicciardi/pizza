@@ -16,7 +16,7 @@ _11/09/16_
 
 ## Setup/Installation Requirements
 
-* _[Go here](https://medicciardi.github.io/pizza)_
+* _[Go here](https://buildmybackpack.com/pizza)_
 
 ## Technologies Used
 
