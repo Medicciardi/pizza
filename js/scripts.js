@@ -10,17 +10,17 @@ function pizza (size, toppings, cost) {
 };
 
 pizza.prototype.pizzaCost = function() {
-  if (newPizza.size === "personal") {
-    newPizza.cost += 10;
-  } else if (newPizza.size === "medium") {
-    newPizza.cost += 14;
-  } else if (newPizza.size === "large") {
-    newPizza.cost += 18;
-  } else if (newPizza.size === "giant") {
-    newPizza.cost += 22
+  if (this.size === "personal") {
+    this.cost += 10;
+  } else if (this.size === "medium") {
+    this.cost += 14;
+  } else if (this.size === "large") {
+    this.cost += 18;
+  } else if (this.size === "giant") {
+    this.cost += 22
   }
   toppingsCost = toppingsArray.length;
-  newPizza.cost += toppingsCost;
+  this.cost += toppingsCost;
 }
 
 
@@ -31,8 +31,7 @@ $(document).ready(function() {
     toppingsArray = [];
 
     $("input:checkbox[name=topping]:checked").each(function() {
-      var allToppings = $(this).val();
-      toppingsArray.push(allToppings);
+      toppingsArray.push($(this).val());
     });
 
     toppingsAsString = toppingsArray.join(", ");
