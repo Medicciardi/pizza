@@ -8,10 +8,11 @@ _11/09/16_
 ## Specifications
 
  _This application is a pizza ordering webapp. The purpose of this application is to showcase my JavaScript skills up to this point in my intro course at Epicodus. This webapp can:_
-  1. _Take an inputted selection from the user regarding pizza size._
-  2. _Take input using checkboxes to select toppings for pizza._
-  3. _calculate cost of pizza based on pizza size and number of toppings._
-  4. _display chosen pizza as text including total cost once the user hits submit._
+  1. _Inputting a size selection and choosing toppings will create a pizza and calculate cost_
+    * _Input: Selecting personal sized pizza with one topping_
+    * _Output: The total for this pizza is $11_
+    * _Input: Selecting Giant sized pizza with 4 toppings_
+    * _Output: The total for this pizza is $26_
 
 ## Setup/Installation Requirements
 
